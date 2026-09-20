@@ -407,7 +407,7 @@ results/metrics/multi_seed_summary.csv
 Cloner le projet puis entrer dans son dossier :
 
 ```bash
-git clone <URL_DU_REPOSITORY>
+git clone https://github.com/aboudAG/gps-spoofing-bayesian-uav.git
 cd gps-spoofing-bayesian-uav
 ```
 
