@@ -1,0 +1,30 @@
+# Environnements virtuels
+venv/
+.venv/
+env/
+ENV/
+
+# Fichiers Python compilés / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+
+# Systèmes de fichiers / éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Résultats volumineux régénérables (les figures et métriques de démonstration
+# sont conservées ; les données générées lourdes ne sont pas versionnées)
+data/generated/*.csv
+data/generated/*.parquet
+
+# Modèles sérialisés volumineux
+models/*.pkl
+models/*.joblib
+
+# Logs
+*.log

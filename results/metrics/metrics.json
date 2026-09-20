@@ -1,0 +1,172 @@
+{
+  "exp1_normal": {
+    "accuracy": 0.9266666666666666,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "false_positive_rate": 0.07333333333333333,
+    "detection_rate": 0.0,
+    "true_positives": 0,
+    "true_negatives": 556,
+    "false_positives": 44,
+    "false_negatives": 0,
+    "confusion_matrix": [
+      [
+        556,
+        44
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "mean_inference_time_sec": 0.00042308707166666793,
+    "scenario": "none"
+  },
+  "exp2_progressif": {
+    "accuracy": 0.8016666666666666,
+    "precision": 0.9288256227758007,
+    "recall": 0.725,
+    "f1_score": 0.8143525741029641,
+    "false_positive_rate": 0.08333333333333333,
+    "detection_rate": 0.725,
+    "true_positives": 261,
+    "true_negatives": 220,
+    "false_positives": 20,
+    "false_negatives": 99,
+    "confusion_matrix": [
+      [
+        220,
+        20
+      ],
+      [
+        99,
+        261
+      ]
+    ],
+    "mean_inference_time_sec": 0.0004190913483333366,
+    "scenario": "progressive"
+  },
+  "exp3_brutal": {
+    "accuracy": 0.835,
+    "precision": 0.8708487084870848,
+    "recall": 0.7866666666666666,
+    "f1_score": 0.8266199649737302,
+    "false_positive_rate": 0.11666666666666667,
+    "detection_rate": 0.7866666666666666,
+    "true_positives": 236,
+    "true_negatives": 265,
+    "false_positives": 35,
+    "false_negatives": 64,
+    "confusion_matrix": [
+      [
+        265,
+        35
+      ],
+      [
+        64,
+        236
+      ]
+    ],
+    "mean_inference_time_sec": 0.00041861745166666374,
+    "scenario": "brutal"
+  },
+  "bonus_intermittent": {
+    "accuracy": 0.71,
+    "precision": 0.5882352941176471,
+    "recall": 0.5714285714285714,
+    "f1_score": 0.5797101449275363,
+    "false_positive_rate": 0.2153846153846154,
+    "detection_rate": 0.5714285714285714,
+    "true_positives": 120,
+    "true_negatives": 306,
+    "false_positives": 84,
+    "false_negatives": 90,
+    "confusion_matrix": [
+      [
+        306,
+        84
+      ],
+      [
+        90,
+        120
+      ]
+    ],
+    "mean_inference_time_sec": 0.0005409085300000054,
+    "scenario": "intermittent"
+  },
+  "exp4_bruit": {
+    "noise_levels": [
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      3.0
+    ],
+    "accuracy": [
+      0.8216666666666667,
+      0.8066666666666666,
+      0.7483333333333333,
+      0.6783333333333333,
+      0.6133333333333333
+    ],
+    "f1_score": [
+      0.8282504012841091,
+      0.8198757763975155,
+      0.7858156028368795,
+      0.7528809218950064,
+      0.7314814814814815
+    ],
+    "false_positive_rate": [
+      0.020833333333333332,
+      0.08333333333333333,
+      0.2833333333333333,
+      0.5291666666666667,
+      0.7833333333333333
+    ],
+    "recall": [
+      0.7166666666666667,
+      0.7333333333333333,
+      0.7694444444444445,
+      0.8166666666666667,
+      0.8777777777777778
+    ]
+  },
+  "exp5_intensite": {
+    "intensities": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0
+    ],
+    "accuracy": [
+      0.42833333333333334,
+      0.615,
+      0.7433333333333333,
+      0.7866666666666666,
+      0.8383333333333334
+    ],
+    "f1_score": [
+      0.18527315914489312,
+      0.5666041275797373,
+      0.7475409836065574,
+      0.7987421383647799,
+      0.8545727136431784
+    ],
+    "recall": [
+      0.10833333333333334,
+      0.41944444444444445,
+      0.6333333333333333,
+      0.7055555555555556,
+      0.7916666666666666
+    ],
+    "false_positive_rate": [
+      0.09166666666666666,
+      0.09166666666666666,
+      0.09166666666666666,
+      0.09166666666666666,
+      0.09166666666666666
+    ]
+  }
+}
